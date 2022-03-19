@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!--这个是谷歌搜索界面，但是用的是百度的网址/!-->
     <head>
+        <meta charset="UTF-8">
         <title>Search</title>
+        <link rel="stylesheet" type="text/css" href="css\index1.css">
     </head>
+
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+        <!--第一个div是谷歌搜索的上边界，根据要求在右上角设置图像搜索和高级搜索/!-->
+        <div style = height:100px>
+            <ul class="ul_1">
+                <li>
+                    <!--第一列:图像搜索/!-->
+                    <a href="ImageSearch.html">图像搜索</a>
+                </li>
+                <li>
+                    <!--第二列:高级搜索/!-->
+                    <a href="AdvancedSearch.html">高级搜索</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <!--中间部分的Google Logo/!-->
+        <div style = height:100px;text-align:center;>
+            <img src="img\GoogleLogo.png" alt="" class="img1">
+        </div>
+        
+       
+        <div style = height:20px>
+        </div>
+         <!--搜索框部分,改成了百度搜索/!-->
+        <form action="https://www.baidu.com/s?">
+            <input type="text" name="wd" class="input1">
+            <input type="submit" value="Baidu Search" class="button1">
         </form>
+
+        <!--I'm feeling lucky待写/!-->
     </body>
 </html>

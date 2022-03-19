@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--这个是谷歌图片搜索界面/!-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Image Search</title>
+        <link rel="stylesheet" type="text/css" href="css\index2.css">
+    </head>
+
+    <body>
+        <!--最上方返回谷歌搜索，即index.html/!-->
+        <div style=height:240px>
+            <a href="index.html" class="a1">返回谷歌搜索</a>
+        </div>
+        <!--中间部分的Google Logo/!-->
+        <div style = height:100px;text-align:center;>
+            <img src="img\GoogleLogo.png" alt="" class="img1">
+        </div>
+        
+        <div style = height:20px></div>
+
+         <!--图片搜索，搜索框部分，谷歌搜索，百度的没试出来/!-->
+        <form action="https://images.google.com.hk/search?">
+            <input type="text" name="q" class="input1">
+            <input type="hidden" name="tbm" value="isch">
+            <input type="submit" value="Image Search" class="button1">
+        </form>
+
+        
+    </body>
+</html>

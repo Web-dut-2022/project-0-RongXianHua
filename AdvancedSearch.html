@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--这个是谷歌高级搜索界面/!-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Advanced Search</title>
+        <link rel="stylesheet" type="text/css" href="css\index3.css">
+    </head>
+
+    <body>
+        <!--最上方返回谷歌搜索，即index.html/!-->
+        <div class="d1">
+            <img src="img\GoogleLogo.png" alt="" class="img1">
+            <a href="index.html" class="a1">返回谷歌搜索</a>
+        </div>
+
+         <!--高级搜索这几个红字!-->
+         <div class = "d2">
+             <p>高级搜索</p>
+         </div>
+
+
+         <!--高级搜索框,用了谷歌，CSS有点写不动了，如果能有时间，再完善，功能都实现了!-->
+         <div>
+            <form action="https://www.google.com.hk/search?">
+                <ul>
+                    <li>
+                        以下所有字词
+                    </li>
+                    <li>
+                        <input type="text" name="as_q" class="input1">
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        与以下字词完全匹配
+                    </li>
+                    <li>
+                        <input type="text" name="as_epq" class="input1">
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        以下任意字词
+                    </li>
+                    <li>
+                        <input type="text" name="as_oq" class="input1">
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        不含以下任意字词
+                    </li>
+                    <li>
+                        <input type="text" name="as_eq" class="input1">
+                    </li>
+                </ul>
+                
+                <input type="submit" value="高级搜索" class="button1">
+            </form>
+         </div>
+
+    </body>
+</html>
